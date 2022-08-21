@@ -288,7 +288,7 @@ void extract_IDAT_chunk(PNG_info_t *png_info)
         crc |= (png_info->data_file[png_info->index] << bitwise_decal);
     }
     
-    printf("CRC : %u\n\n");
+    printf("CRC : %u\n\n", crc);
     printf("\n-----------------------------------\n");
 }
 
